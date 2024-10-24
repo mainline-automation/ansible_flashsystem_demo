@@ -17,7 +17,7 @@
 
   - name: Read the csv file containing volume information
     community.general.read_csv:
-      path: vars/volume.csv
+      path: vars/volumes.csv
     register: managed_volumes
 
   - name: Create and Change volumes in FlashSystem
